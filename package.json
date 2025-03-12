@@ -1,0 +1,23 @@
+{
+  "name": "mfe-poc",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app-shell",
+    "mfe-header",
+    "mfe-landing",
+    "mfe-footer",
+    "shared",
+    "nest-backend"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "build:shared": "yarn workspace @mfe-poc/shared build",
+    "prebuild": "yarn build:shared",
+    "start": "yarn build:shared && yarn dev",
+    "dev": "node scripts/dev.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

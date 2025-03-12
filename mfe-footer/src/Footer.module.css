@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--spacing-large);
+  font-family: var(--font-family);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-large);
+}
+
+.section {
+  padding: var(--spacing-medium);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-medium);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: var(--spacing-small);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: var(--spacing-large);
+  padding-top: var(--spacing-medium);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+} 

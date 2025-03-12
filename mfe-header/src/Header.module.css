@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-medium);
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  gap: var(--spacing-medium);
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+  padding: var(--spacing-small);
+}
+
+.navLink:hover {
+  text-decoration: underline;
+} 
