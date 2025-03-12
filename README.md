@@ -1,3 +1,5 @@
+🚧 This is AI generated and problably does not work. 
+
 # Microfrontend POC with Module Federation
 
 This project demonstrates a microfrontend architecture using Webpack Module Federation, with multiple sites sharing the same components but with different themes.
